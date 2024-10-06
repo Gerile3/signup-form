@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    height: 100vh;
+}
+
+.image-container{
+    flex-basis: 33%;
+
+
+    .background{
+        width: 100%;
+        position:relative;
+        z-index: -1;
+    }
+
+    .logo{
+        position:absolute;
+        border: 1px solid black;
+        width: 10rem;
+        top:300px;
+        left:150px;
+    }
+
+    .brand{
+        position: absolute;
+        border: 1px solid green;
+        color: whitesmoke;
+        font-size: 5rem;
+        top:370px;
+        left:310px;        
+    }
+    
+}
+
+.form-container{
+    flex-basis: 67%;
+}
